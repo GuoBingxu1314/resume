@@ -1,12 +1,459 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>个人主页</title>
-	<link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <!-- SEO  -->
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <!-- 苹果专用 -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- 简单移动端适配 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!-- 图标 -->
+    <link rel="shortcut icon" href="">
+
+    <title>我的个人主页</title>
+
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+
+    <script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="js/swiper-3.4.0.jquery.min.js"></script>
+    <script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
+
 <body>
-	这是我的个人主页
+<section>
+
+    <section class="box">
+        <header>
+
+            <img src="img/true (1).jpg" id="header_img">
+
+        </header>
+        <div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 10px;">
+            <nav id="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block blockTop">
+                                <nav class="navbar navbar-static-top navbar-default">
+                                    <div class="container-fluid">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                                    data-target="#bs-example-navbar-collapse-1">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <a class="navbar-brand" href="#">
+                                                <img src="img/name.png" alt="Logo"
+                                                     style="width: 210px;height: 90px; margin-top: -39px; margin-right: 10px;">
+                                            </a>
+
+                                        </div>
+
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                                <li>
+                                                    <a href="javascript:;" class="aa">主页</a>
+                                                    <span class="ss"></span>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;" class="aa">自我介绍</a>
+                                                    <span class="ss"></span>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;" class="aa">项目展示</a>
+                                                    <span class="ss"></span>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;" class="aa">专业技能</a>
+                                                    <span class="ss"></span>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;" class="aa">联系方式</a>
+                                                    <span class="ss"></span>
+                                                </li>
+                                                <!--<li>-->
+                                                    <!--<a href="javascript:;" class="aa"></a>-->
+                                                    <!--<span></span>-->
+                                                <!--</li>-->
+                                            </ul>
+                                        </div>
+                                        <!-- /.navbar-collapse -->
+                                    </div>
+                                    <!-- /.container-fluid -->
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- .col-md-12 close -->
+                    </div>
+                    <!-- .row close -->
+                </div>
+                <!-- .container close -->
+            </nav>
+        </div>
+    </section>
+    <!--第一部分 作品-->
+    <section id="slider">
+        <div id="banner">
+            <div id="title">
+                作品
+                <span>展示</span>
+            </div>
+            <div id="lunbo">
+                <div class="swiper-container cusSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-1.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-2.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-3.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-4.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-1.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-2.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-3.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-img-4.jpg"/>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination fyq"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  第二部分  aboutMy-->
+    <section id="aboutMy" class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <img class="wow wow_img" src="img/cooker-img.png" alt="">
+                        <h1 class="heading">自我介绍</span>
+                        </h1>
+                        <p class="wow wow_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in <br>voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat</p>
+                    </div>
+                </div>
+                <!-- .col-md-12 close -->
+            </div>
+            <!-- .row close -->
+        </div>
+        <!-- .containe close -->
+    </section>
+
+    <section id="blog" class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading"><span>项目展示</span></h1>
+                        <ul>
+                            <li class="wow liOne">
+                                <div class="blog-img">
+                                    <img src="img/blog-img-1.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken
+                                        simmered...</p>
+                                </div>
+                            </li>
+                            <li class="wow liTwo">
+                                <div class="blog-img">
+                                    <img src="img/blog-img-2.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken
+                                        simmered...</p>
+                                </div>
+                            </li>
+                            <!------左边------------>
+                            <li class="wow liTree">
+
+                                <div class="content-left">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken
+                                        simmered...</p>
+                                </div>
+                                <div class="blog-img">
+                                    <img src="img/blog-img-4.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow liFour">
+
+                                <div class="content-left">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken
+                                        simmered...</p>
+                                </div>
+                                <div class="blog-img">
+                                    <img src="img/blog-img-2.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow liFive">
+                                <div class="blog-img">
+                                    <img src="img/blog-img-5.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Homestyle Chicken </h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken
+                                        simmered...</p>
+                                </div>
+                            </li>
+                            <li class="wow liSix">
+                                <div class="blog-img">
+                                    <img src="img/blog-img-6.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Homestyle Chicken </h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken
+                                        simmered...</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- .col-md-12 close -->
+            </div>
+            <!-- .row close -->
+        </div>
+        <!-- .containe close -->
+    </section>
+
+    <!--自我介绍-->
+    <section id="jieshao" class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow wow_h1"><span>专业</span> <span>技能</span></h1>
+                        <p class="wow wow_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco </p>
+                        <div class="pricing-list">
+                            <div class="title">
+                                <h3>我的 <span>专业技能</span></h3>
+                            </div>
+                            <ul>
+                                <li class="wow wow_title1">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Pancakes n' Such</h2>
+                                            <div class="border-bottom"></div>
+                                            <!-- <span>$ 25.00</span>-->
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
+                                    </div>
+                                </li>
+                                <li class="wow wow_title2">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Homestyle Chicken Pot Pie</h2>
+                                            <div class="border-bottom"></div>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
+                                    </div>
+                                </li>
+                                <li class="wow wow_title3">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Cereal, Panecillos y Frutas </h2>
+                                            <div class="border-bottom"></div>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
+                                    </div>
+                                </li>
+                                <li class="wow wow_title4">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Meat of Skewers</h2>
+                                            <div class="border-bottom"></div>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
+                                    </div>
+                                </li>
+                                <li class="wow wow_title5">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Steak with a Garlic and Parsley Risotto</h2>
+                                            <div class="border-bottom"></div>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
+                                    </div>
+                                </li>
+                                <li class="wow wow_title6">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Caesar Salad</h2>
+                                            <div class="border-bottom"></div>
+
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-default pull-right wow bounceIn animated" data-wow-duration="500ms"
+                               data-wow-delay="1200ms" href="#" role="button"
+                               style="visibility: visible; animation-duration: 500ms; animation-delay: 1200ms; animation-name: bounceIn;">More
+                                Info</a>
+                        </div>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section>
+    <!--联系我-->
+    <section id="footer" class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="block wow foot1">
+                        <h3>联系 <span>信息</span></h3>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <h4><i class="glyphicon glyphicon-phone-alt"></i>Telefone</h4>
+                                    <p>176-0046-0536</p>
+
+                                </li>
+                                <li>
+                                    <h4><i class="glyphicon glyphicon-map-marker"></i>Address</h4>
+                                    <p>北京市-大兴区-西红门-礼域府</p>
+                                </li>
+                                <li>
+                                    <h4><i class="glyphicon glyphicon-envelope"></i>E mail</h4>
+                                    <p>17600460536@163.com</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow foot2">
+                        <h3>最新 <span>博客文章</span></h3>
+                        <div class="blog">
+                            <ul>
+                                <li>
+                                    <h4><a href="#">Nov 9-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit
+                                        sapien</p>
+                                </li>
+                                <li>
+                                    <h4><a href="#">Sep 8-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit
+                                        sapien</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow foot3">
+                        <div class="gallary">
+                            <h3>爱好 <span>美食</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="img/photo-1.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/photo-2.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/photo-3.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/photo-4.jpg" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-media-link">
+                            <h3>Follow <span>US</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-behance"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section>
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>版权所有 © 郭炳旭 - 欢迎借鉴 -</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<script src="js/index.js" type="text/javascript"></script>
+
+<script src="js/app.js" type="text/javascript"></script>
 </body>
+
 </html>
