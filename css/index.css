@@ -172,18 +172,11 @@ h3 {
 	height: 700px;
 	background-color: pink;
 }
-#banner {
-	width: 100%;
-}
 #bsContainer {
 	margin: 0 auto;
 	width: 100%;
 	background-color: yellowgreen;
 	overflow-x: scroll;
-}
-#bannerSwiper {
-	width: 1200px;
-	display: flex;
 }
 #aboutMy {
 	padding: 140px 0px 60px 0px;
@@ -435,55 +428,6 @@ h3 {
 
 	#blog .block ul li h3 {
 		padding: 0px 0px 30px;
-	}
-}
-
-/*----------轮播-----------*/
-#banner {
-	margin: 0 auto;
-	width: 80%;
-	height: 310px;
-	text-align: center;
-	margin-top: 40px;
-}
-#title {
-	width: 100%;
-	height: 20%;
-	line-height: 60px;
-	background-color: white;
-	/*border: 1px solid yellow;*/
-
-	text-align: left;
-	font-size: 20px;
-	font-weight: bold;
-	padding-left: 20px;
-}
-#title span {
-	color: orange;
-}
-#lunbo,
-.cusSwiper {
-	width: 1140px;
-	height: 80%;
-	background-color: white;
-}
-.swiper-slide {
-	width: 100%;
-	height: 100%;
-}
-.swiper-slide img {
-	width: 85%;
-	height: 85%;
-}
-
-/*pc端样式*/
-@media only screen and (min-width:768px) {}
-
-/*移动端样式*/
-@media only screen and (max-width:766px) {
-	#lunbo,
-	.cusSwiper {
-		width: 100%;
 	}
 }
 
